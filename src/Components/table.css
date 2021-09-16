@@ -1,0 +1,48 @@
+th{
+    border: 1px solid rgb(160, 154, 154);
+    padding: 20px;
+}
+td {
+    border: 1px solid black;
+    padding: 10px;
+}
+.infoTable {
+    width: 100%;
+    border: 1px solid black;
+    text-align: center;
+}
+.tableRow:hover{
+    background-color: red;
+    opacity: 0.5;
+}
+.container{
+    width: 800px;
+    margin: auto;
+}
+.input input {
+    width: 100%;
+}
+.table_list {
+    width: 100%;
+}
+.pagination{
+    display: flex;
+    justify-content: center;
+
+}
+.page-item{
+    display: block;
+    padding: 5px;
+    list-style-type: none;
+    border: 1px solid rgb(60, 33, 124);
+    margin-right: 10px;
+
+}
+.page-link {
+    text-decoration: none;
+    
+}
+.page-item:hover{
+    background-color: red;
+    opacity: 0.5;
+}
